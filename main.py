@@ -19,7 +19,7 @@ from apex import amp
 from timm.loss import LabelSmoothingCrossEntropy, SoftTargetCrossEntropy
 from datasets.blending import CutmixMixupBlending
 from utils.config import get_config
-from trainerss import vificlip
+from trainerss import vapt
 
 
 def parse_option():
@@ -51,7 +51,7 @@ def main(config):
     class_names = [class_name for i, class_name in train_data.classes]
 
     # Custom trainer for different variants of ViFi-CLIP
-    model = vificlip.returnCLIP(config,
+    model = vapt.returnCLIP(config,
                                 logger=logger,
                                 class_names=class_names,)
 
