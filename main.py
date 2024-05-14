@@ -24,14 +24,14 @@ from trainerss import vapt
 
 def parse_option():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', type=str, default='/home/ljj/LG/Fine-tunedCLIP/configs/few_shot/prompting_few_shot/ucf101/16_32_prompting_2_shot.yaml')
+    parser.add_argument('config', type=str, help='V-APT model config file')
     parser.add_argument(
         "--opts",
         help="Modify config options by adding 'KEY VALUE' pairs. ",
         default=None,
         nargs='+',
     )
-    parser.add_argument('--output', type=str, default="/home/ljj/LG/Fine-turnedCLIP/output/")
+    parser.add_argument('--output', type=str, default='', help='Model output path')
     parser.add_argument('--resume', type=str)
     parser.add_argument('--pretrained', type=str)
     parser.add_argument('--only_test', action='store_true')
