@@ -1,5 +1,7 @@
 # V-APT: Action Recognition Based on Image to Video Prompt-Tuning
 
+Paper: 
+
 # 1. Introduction
 We propose the V-APT method, which incorporates a lightweight LSTM block for temporal relationship modeling before average temporal pooling. Furthermore, our approach also encompasses a deep visual and text prompt interaction block, which guides visual prompts through text prompts in order to ensure mutual coordination between vision and language.
 
