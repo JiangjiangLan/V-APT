@@ -1,5 +1,7 @@
 # V-APT: Action Recognition Based on Image to Video Prompt-Tuning
 
+Paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10660097
+
 
 
 # 1. Introduction
